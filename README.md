@@ -45,6 +45,8 @@ java -jar zendesk.jar
 
 This application will load or reload all tickets in a list when the user requests to display all tickets. Tickets will be listed with a number at the beginning of the line. Long subject (more than 60) will be abbreviated automatically.
 
+The application will print a message when every 100 tickets are loaded.
+
 Enter `menu` -> `1` to display all tickets.
 
 output Example:
