@@ -124,14 +124,14 @@ public class Ticket {
    * Display a ticket in card view
    */
   public String displayCard() {
-    String sb = getId() + " " + "Subject:" + getSubject() + "\n" +
-        "Description"+ getDescription() + "\n" +
+    String sb = getId() + " " + "Subject: " + getSubject() + "\n" +
+        "___________________________\n"+ getDescription() + "\n" +
         "___________________________\n" +
         "Requester ID:" + getRequesterId() + "\n" +
-        "Priority:" + getPriority() + " Status:" +
-        getStatus() + " Type:" + getType() + "\n" +
+        "Priority:" + getPriority() + " | Status:" +
+        getStatus() + " | Type:" + getType() + "\n" +
         "Tags:" + listTags() + "\n" +
-        "Create Date:" + getCreateDate() + " Update Date:" + getUpdateDate();
+        "Create Date:" + getCreateDate() + " | Update Date:" + getUpdateDate();
     return sb;
   }
 
